@@ -1,0 +1,36 @@
+body{
+    background-color : rgba(120,144,200,0.5);
+}
+img{
+    height : 80%;
+    width : 90%;
+    border-radius:5px;
+}
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : auto;
+    margin-top:5%;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.success{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+@media (max-width : 430px){
+    .align{
+        justify-content:center;
+        align-items :flex-start;
+    }
+    h2{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
